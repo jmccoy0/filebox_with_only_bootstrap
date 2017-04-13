@@ -3036,7 +3036,8 @@ select[multiple].input-lg {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333;
+  color: white;
+  background-color: rgb(45,89,134);
   text-decoration: none;
 }
 .btn:active,
