@@ -29,16 +29,16 @@
   <!-- Connect to Google Web Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <style>
-.row{
-  border: thin red solid;
+
+button{
+  color: white;
+  background-color: rgb(64,128,191);
 }
 
-img, form, h1, h2, p {
-  border: thin green solid;
+img{margin-bottom: 150px;
 }
-
 p{
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 </style>
@@ -108,7 +108,7 @@ p{
   <div class="container">
       <div class="row">
           <div class="col-md-offset-1 col-md-10">
-            <img src="assets/images/hero.png" class="img-responsive">
+            <img src="assets/images/hero.png" class="img-responsive margin-below-bottom-xs">
           </div>
       </div>
 
@@ -122,17 +122,14 @@ p{
             </p>
           </div>
           <div class="col-md-offset-2 col-md-4">
-            <form>
+            <form class="margin-below-bottom-lg margin-above-top-sm">
               <div class="form-group">
-                <label for="exampleInputName1"></label>
-                <input type="name" class="form-control" id="exampleInputName1" placeholder="Full name">
+                <input type="text" class="form-control" id="exampleInputName1" placeholder="Full name" class="margin-above-top-sm">
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1"></label>
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1"></label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
               </div>
               <div class="checkbox">
@@ -141,6 +138,7 @@ p{
                 </label>
               </div>
               <button type="submit" class="btn btn-block">Sign up for free</button>
+              <hr>
               <button type="submit" class="btn btn-block"><i class="fa fa-google" aria-hidden="true"></i>  Sign up free with Google</button>
             </form>
           </div>
@@ -156,7 +154,7 @@ p{
             </p>
           </div>
           <div class="col-md-offset-2 col-md-4">
-            <img src="assets/images/docs-anywhere.png">
+            <img class="margin-below-bottom-lg" src="assets/images/docs-anywhere.png">
           </div>
       </div>
 
@@ -222,28 +220,29 @@ p{
 
       <div class="row">
           <div class="col-md-offset-4 col-md-4">
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputFile">File input</label>
-                <input type="file" id="exampleInputFile">
-                <p class="help-block">Example block-level help text here.</p>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Check me out
-                </label>
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-          </div>
+            <h2 class="text-center">
+              Get started now
+            </h2>
+            <form class="margin-below-bottom-lg margin-above-top-xs">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="exampleInputName1" placeholder="Full name" class="margin-above-top-sm">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> I agree to <a href="file:///C:/Sites/filebox_with_only_bootstrap/landing.html"> Filebox terms </a>
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-block">Sign up for free</button>
+                <hr>
+                <button type="submit" class="btn btn-block"><i class="fa fa-google" aria-hidden="true"></i>  Sign up free with Google</button>
+              </form>
+            </div>
       </div>
 
       <div class="row">
@@ -260,7 +259,7 @@ p{
           <p>
             Plans
           </p>
-          <p>
+          <p class="margin-below-bottom-xl">
             Security
           </p>
           </div>
